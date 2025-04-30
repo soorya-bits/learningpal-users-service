@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.env
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Docker
+*.log
+*.pid
+*.seed
+*.pid.lock
+*.db
+*.sqlite3
+*.sqlite
