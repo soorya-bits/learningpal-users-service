@@ -1,0 +1,19 @@
+replicaCount: 1
+
+image:
+  repository: librarypal-users-service
+  tag: latest
+  pullPolicy: IfNotPresent
+
+service:
+  type: NodePort
+  port: 8000
+  nodePort: 30002  # For Minikube access
+
+db:
+  user: root
+  password: admin123
+  host: librarypal-db-service
+  name: library
+
+resources: {}
