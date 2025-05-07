@@ -17,7 +17,7 @@ This application is a microservice that manages user-related operations such as 
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/soorya-bits/learningpal-users-service.git
+    git clone https://github.com/soorya-bits/librarypal-users-service.git
     cd learningpal-users-service
     ```
 
